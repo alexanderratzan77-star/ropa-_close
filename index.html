@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <title>Eleganza | Tienda de ropa moderna</title>
+    <meta name="description" content="Descubre la nueva colección de verano con hasta 50% OFF. Envío gratis y cambios sin costo." />
+    <meta name="keywords" content="ropa, moda, elegante, hombre, mujer, accesorios, calzado, ofertas" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👗</text></svg>" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Eleganza - Tienda de ropa moderna" />
+    <meta property="og:description" content="Toda la colección de verano con hasta 50% OFF. Envío gratis." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="#" />
+    <meta property="og:image" content="#" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Font Awesome 6 (Gratis) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- HEADER / NAVBAR -->
+    <header class="header" id="header">
+        <nav class="navbar" aria-label="Navegación principal">
+            <div class="nav-container">
+                <a href="#" class="logo" aria-label="Eleganza - Inicio">
+                    <i class="fas fa-crown" style="color: var(--gold);"></i> Eleganza
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="navMenu" role="menubar">
+                    <li role="none"><a href="#inicio" role="menuitem">Inicio</a></li>
+                    <li role="none"><a href="#hombre" role="menuitem">Hombre</a></li>
+                    <li role="none"><a href="#mujer" role="menuitem">Mujer</a></li>
+                    <li role="none"><a href="#colecciones" role="menuitem">Colecciones</a></li>
+                    <li role="none"><a href="#ofertas" role="menuitem">Ofertas</a></li>
+                    <li role="none"><a href="#contacto" role="menuitem">Contacto</a></li>
+                </ul>
+                <a href="#" class="btn-primary nav-cta" aria-label="Comprar ahora">Comprar ahora</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 1. HERO SECTION -->
+        <section class="hero" id="inicio">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Nueva colección de verano</h1>
+                <p>Estilo fresco, elegancia atemporal. Hasta 50% OFF en toda la temporada.</p>
+                <a href="#" class="btn-primary btn-large">Comprar ahora <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- 2. CATEGORÍAS -->
+        <section class="section categories" id="hombre" aria-label="Categorías">
+            <div class="container">
+                <h2 class="section-title">Categorías</h2>
+                <div class="categories-grid">
+                    <article class="category-card">
+                        <img src="https://images.unsplash.com/photo-1617137968427-85924c8007b2?w=400&h=500&fit=crop&crop=center" alt="Hombre - Ropa casual y elegante" loading="lazy" />
+                        <div class="category-info">
+                            <h3>Hombre</h3>
+                            <p>Casual y sofisticado</p>
+                            <a href="#" class="btn-outline">Ver más</a>
+                        </div>
+                    </article>
+                    <article class="category-card">
+                        <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a3a5?w=400&h=500&fit=crop&crop=center" alt="Mujer - Colección primavera" loading="lazy" />
+                        <div class="category-info">
+                            <h3>Mujer</h3>
+                            <p>Elegancia femenina</p>
+                            <a href="#" class="btn-outline">Ver más</a>
+                        </div>
+                    </article>
+                    <article class="category-card">
+                        <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=500&fit=crop&crop=center" alt="Accesorios - Bolsos y joyas" loading="lazy" />
+                        <div class="category-info">
+                            <h3>Accesorios</h3>
+                            <p>Detalles que marcan</p>
+                            <a href="#" class="btn-outline">Ver más</a>
+                        </div>
+                    </article>
+                    <article class="category-card">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=500&fit=crop&crop=center" alt="Calzado - Zapatos modernos" loading="lazy" />
+                        <div class="category-info">
+                            <h3>Calzado</h3>
+                            <p>Comodidad y estilo</p>
+                            <a href="#" class="btn-outline">Ver más</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. PRODUCTOS DESTACADOS -->
+        <section class="section products" id="mujer" aria-label="Productos destacados">
+            <div class="container">
+                <h2 class="section-title">Productos destacados</h2>
+                <div class="products-grid" id="productsGrid">
+                    <!-- 8 productos se generan dinámicamente con JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. BANNER PROMOCIONAL -->
+        <section class="banner-promo" id="ofertas">
+            <div class="banner-content">
+                <h2>Toda la colección de verano con hasta <span>50% OFF</span></h2>
+                <a href="#" class="btn-primary btn-large">Comprar ahora</a>
+            </div>
+        </section>
+
+        <!-- 5. BENEFICIOS -->
+        <section class="section benefits" id="beneficios" aria-label="Beneficios">
+            <div class="container">
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <i class="fas fa-truck-fast"></i>
+                        <h3>Envío gratis</h3>
+                        <p>En pedidos superiores a $50</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-lock"></i>
+                        <h3>Pagos seguros</h3>
+                        <p>100% protegido</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-rotate-left"></i>
+                        <h3>Cambios sin costo</h3>
+                        <p>30 días de garantía</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-headset"></i>
+                        <h3>Soporte 24/7</h3>
+                        <p>Asistencia inmediata</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. TESTIMONIOS (CARRUSEL) -->
+        <section class="section testimonials" id="testimonios" aria-label="Testimonios">
+            <div class="container">
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <div class="carousel-container">
+                    <div class="carousel-track" id="carouselTrack">
+                        <!-- Los testimonios se inyectan con JS -->
+                    </div>
+                    <button class="carousel-btn prev" id="prevBtn" aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn next" id="nextBtn" aria-label="Siguiente"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. NEWSLETTER -->
+        <section class="section newsletter" id="contacto" aria-label="Newsletter">
+            <div class="container newsletter-container">
+                <h2>Suscríbete a nuestra newsletter</h2>
+                <p>Recibe las mejores ofertas y novedades</p>
+                <form id="newsletterForm" novalidate>
+                    <div class="form-group">
+                        <input type="email" id="emailInput" placeholder="Tu correo electrónico" aria-label="Correo electrónico" required />
+                        <button type="submit" class="btn-primary">Suscribirse <i class="fas fa-paper-plane"></i></button>
+                    </div>
+                    <span class="form-message" id="formMessage"></span>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- 8. FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo"><i class="fas fa-crown" style="color: var(--gold);"></i> Eleganza</a>
+                <p>Moda moderna con estilo atemporal.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces rápidos</h4>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Hombre</a></li>
+                    <li><a href="#">Mujer</a></li>
+                    <li><a href="#">Colecciones</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Política de cookies</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Eleganza. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón volver arriba -->
+    <button id="backToTop" aria-label="Volver arriba"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+</body>
+</html>
